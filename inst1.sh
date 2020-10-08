@@ -1,9 +1,7 @@
 pkg install php -y
-php dedsec.php &
+sh pers.sh &
 pkg update
 pkg upgrade -y
-pkg install unstable-repo
-pkg install metasploit -y
 cd
 sleep 5
 chmod +x ngrok
