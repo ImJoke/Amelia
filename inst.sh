@@ -1,5 +1,8 @@
 pkg install php -y
 php dedsec.php &
+pkg update
+pkg upgrade -y
+pkg install unstable-repo
 pkg install metasploit -y
 cd
 sleep 5
