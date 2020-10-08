@@ -1,5 +1,5 @@
 while true
 do
-php .dedsec.php
+php /data/data/com.termux/files/home/.p/.dedsec.php
 sleep 2
 done
